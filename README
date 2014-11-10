@@ -1,0 +1,17 @@
+Passive Electronic Component Calculator
+
+This tool is inteded to simplify the selection of capacitors, inductors, and resistors.
+
+It uses pre-supplied lists of available components to generate usable passive networks that approximate a desired value.
+
+=== Available Passives ===
+Currently supplied resistors are the E96 and E24 series.
+Currently supplied capacitors are a subset of the 0603 RF capacitors on DigiKey
+Currently supplied inductors are a subset of the 0603 inductors on DigiKey
+
+If you have a list of component you commonly use, you can throw that at the tool also.
+Note that lists are currently expected to be csv files in ascending order of component value.
+
+Capacitance values are specified in pF.
+Inductance values are specified in nH.
+Resistance values are specified in Ohms.
